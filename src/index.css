@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your Custom Theme Variables */
+:root, .theme-dark {
+  --background: #000000;
+  --text-color: #f0f0f0;
+  --primary: #4ade80;
+  --secondary: #facc15;
+  --accent: #ef4444;
+  --info: #5fa3f7;
+  --border: #4b5563;
+  --header-bg: #1f2937;
+  --terminal-bg: #1e1e1e;
+  --scrollbar-track: #2a2a2a;
+  --scrollbar-thumb: #555;
+  --scrollbar-thumb-hover: #777;
+  --purple: #a78bfa;
+}
+
+/* Terminal Matrix Theme */
+.theme-matrix {
+  --background: var(--terminal-black);
+  --text-color: var(--terminal-gray-300);
+  --primary: var(--terminal-green);
+  --secondary: var(--terminal-yellow);
+  --accent: var(--terminal-red);
+  --info: var(--terminal-blue);
+  --border: var(--terminal-gray-700);
+  --header-bg: var(--terminal-gray-800);
+  --terminal-bg: var(--terminal-gray-900);
+  --scrollbar-track: var(--terminal-gray-800);
+  --scrollbar-thumb: var(--terminal-gray-700);
+  --scrollbar-thumb-hover: var(--terminal-gray-600);
+  --purple: var(--terminal-purple);
+}
+
+/* Light Theme */
+.theme-light {
+  --background: #f3f4f6;
+  --text-color: #111827;
+  --primary: #16a34a;
+  --secondary: #f59e0b;
+  --accent: #dc2626;
+  --info: #3b82f6;
+  --border: #d1d5db;
+  --header-bg: #e5e7eb;
+  --terminal-bg: #ffffff;
+  --scrollbar-track: #e5e7eb;
+  --scrollbar-thumb: #9ca3af;
+  --scrollbar-thumb-hover: #6b7280;
+  --purple: #9333ea;
+}
+
+/* Dracula Theme */
+.theme-dracula {
+  --background: #282a36;
+  --text-color: #f8f8f2;
+  --primary: #50fa7b;
+  --secondary: #f1fa8c;
+  --accent: #ff5555;
+  --info: #8be9fd;
+  --border: #44475a;
+  --header-bg: #282a36;
+  --terminal-bg: #282a36;
+  --scrollbar-track: #282a36;
+  --scrollbar-thumb: #6272a4;
+  --scrollbar-thumb-hover: #bd93f9;
+  --purple: #bd93f9;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-color);
+  font-family: 'Fira Code', 'Source Code Pro', monospace;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--scrollbar-track); }
+::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--scrollbar-thumb-hover); }
