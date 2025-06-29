@@ -14,7 +14,7 @@ export default function About() {
 
 > 🎯 Currently focused on AI-powered applications, Retrieval-Augmented Generation (RAG), and cloud-native development
 
-> 📍 Based in Thunder Bay, ON | Open to global opportunities
+> 📍 Based in Ontario, Canada | Open to global opportunities
 
 > When I’m not coding, you’ll find me grinding through sci-fi RPGs or battling friends over pizza toppings like it’s the final round of a multiplayer showdown.`}
         </p>
