@@ -20,7 +20,7 @@ export default function Terminal() {
         <TerminalIcon />
         <span className="text-xl font-normal">tharun@portfolio:$</span>
       </div>
-      <div className="flex gap-2 mt-4">
+      <div className="flex flex-wrap gap-2 mt-4 ">
         <FeaturesButton text="about" variant="primary" size="sm" isClicked={clickedButton === "about"} onClick={() => handleClick("about")} />
         <FeaturesButton text="skills" variant="primary" size="sm" isClicked={clickedButton === "skills"} onClick={() => handleClick("skills")} />
         <FeaturesButton text="projects" variant="primary" size="sm" isClicked={clickedButton === "projects"} onClick={() => handleClick("projects")} />

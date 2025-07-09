@@ -92,7 +92,7 @@ export const Sidebar = ({ activeSection: propActiveSection, setActiveSection: pr
 
   const renderLeftSide = () => {
     return (
-      <div className="w-full md:w-1/3 border-t border-terminal-gray-500 bg-terminal-black text-terminal-gray-300 p-4">
+      <div className=" md:w-1/3 border-t border-terminal-gray-500 bg-terminal-black text-terminal-gray-300 p-4">
         <span className="text-sm">
           Welcome to Tharun's Portfolio Terminal <br />
           Type "help" to see available commands

@@ -32,7 +32,7 @@ export const Email = ({ closeModal }) => {
   };
 
   return (
-    <div className="w-full max-w-[90vw] mx-auto p-3 sm:p-6 bg-terminal-gray-900 text-white rounded border border-terminal-green shadow-lg">
+    <div className="w-full max-w-[90vw] mx-auto p-3 sm:max-w-[40vw] sm:p-6 bg-terminal-gray-900 text-white rounded border border-terminal-green shadow-lg">
       <div className="flex justify-between items-center mb-4">
         <span className="text-terminal-green font-mono text-lg sm:text-xl">$ compose-email</span>
         <button className="text-white hover:text-terminal-red text-xl" onClick={closeModal}>×</button>

@@ -59,7 +59,7 @@ export default function Contact() {
         <div className="text-terminal-yellow text-lg font-mono">
           <p className="mb-2">&gt; <span className="font-semibold">Currently Available For:</span></p>
           <div className="text-terminal-gray-300 space-y-1 pl-4">
-            <p>&gt; Full-time opportunities</p>
+            <p>&gt; Full-time opportunities in Software Development</p>
             <p>&gt; Freelance projects</p>
             <p>&gt; Open source collaborations</p>
           </div>
