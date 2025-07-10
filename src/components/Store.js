@@ -80,21 +80,25 @@ export const experienceJson = {
     }
   ]
 }
-
+  
 
 export const projectsJson = {
   "projects": [
     {
-      "title": "Course Selling Platform Backend",
-      "githubLink": "https://github.com/Tharun2331/Course_Selling_App_Backend",
-      "liveLink": "",
+      "title": "Brainly (In Progress)",
+      "githubLink": "https://github.com/Tharun2331/Brainly_Web_App_2025",
+      "liveLink": "https://brainly-v0.netlify.app/",
       "description": [
-        "Developed a secure and scalable backend API for a course selling platform, enabling administrators to manage courses and users to browse and purchase educational content.",
-        "Implemented robust authentication and authorization using JWT and bcrypt for secure sign-in and sign-up functionalities, with password hashing to protect user credentials.",
-        "Designed flexible course management endpoints to create, update, view, and delete courses, tracking the creator for accountability and efficient management.",
-        "Ensured data integrity and application security with Zod for input validation, MongoDB for database operations, and effective error handling for seamless performance."
+        "Developing a full-stack personal knowledge management system to store, organize, and share curated content (e.g., Twitter links, YouTube videos) via a dynamic dashboard.",
+        "Designing a secure backend with Node.js, Express.js, MongoDB, and JWT, with ongoing enhancements for robust authentication and scalability.",
+        "Building an interactive frontend with React.js, Vite, and Tailwind CSS, featuring a shareable link system (/share/<hash>).",
+        "Optimizing APIs with Axios for 25% faster load times, exploring manual refresh and SSE for updates.",
+        "Ensuring security with Zod validation and error handling, managing 50+ content items with plans for growth."
       ],
-      "technologies": ["Node.js", "Express.js", "MongoDB", "JWT", "bcrypt", "Zod"]
+      "technologies": [
+        "Node.js", "Express.js", "MongoDB", "React.js", "Vite", "Tailwind CSS",
+        "Axios", "JWT", "Zod", "Bcrypt"
+      ]
     },
     {
       "title": "Thesis Project: GraphRAG Pipeline for Evidence Based Medical Question Answering",
@@ -114,20 +118,16 @@ export const projectsJson = {
       ]
     },
     {
-      "title": "Brainly (In Progress)",
-      "githubLink": "https://github.com/Tharun2331/Brainly_Web_App_2025",
+      "title": "Course Selling Platform Backend",
+      "githubLink": "https://github.com/Tharun2331/Course_Selling_App_Backend",
       "liveLink": "",
       "description": [
-        "Developing a full-stack personal knowledge management system to store, organize, and share curated content (e.g., Twitter links, YouTube videos) via a dynamic dashboard.",
-        "Designing a secure backend with Node.js, Express.js, MongoDB, and JWT, with ongoing enhancements for robust authentication and scalability.",
-        "Building an interactive frontend with React.js, Vite, and Tailwind CSS, featuring a shareable link system (/share/<hash>).",
-        "Optimizing APIs with Axios for 25% faster load times, exploring manual refresh and SSE for updates.",
-        "Ensuring security with Zod validation and error handling, managing 50+ content items with plans for growth."
+        "Developed a secure and scalable backend API for a course selling platform, enabling administrators to manage courses and users to browse and purchase educational content.",
+        "Implemented robust authentication and authorization using JWT and bcrypt for secure sign-in and sign-up functionalities, with password hashing to protect user credentials.",
+        "Designed flexible course management endpoints to create, update, view, and delete courses, tracking the creator for accountability and efficient management.",
+        "Ensured data integrity and application security with Zod for input validation, MongoDB for database operations, and effective error handling for seamless performance."
       ],
-      "technologies": [
-        "Node.js", "Express.js", "MongoDB", "React.js", "Vite", "Tailwind CSS",
-        "Axios", "JWT", "Zod", "Bcrypt"
-      ]
+      "technologies": ["Node.js", "Express.js", "MongoDB", "JWT", "bcrypt", "Zod"]
     }
   ]
 }

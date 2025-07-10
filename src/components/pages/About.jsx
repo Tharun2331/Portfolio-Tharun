@@ -6,7 +6,7 @@ export default function About() {
       </div>
       <div className="text-lg text-terminal-gray leading-relaxed font-mono whitespace-pre-wrap">
         <p>
-          {`> Hello! I'm Tharun Sekar, a passionate Software Developer and AI Researcher
+          {`> Hello! I'm Tharun Sekar, a passionate Software Developer and AI Enthusiast
 
 > 🚀 Experience across Ernst & Young, Verzeo, and multiple startups building scalable full-stack and ML solutions
 
