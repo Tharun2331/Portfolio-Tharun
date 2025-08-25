@@ -4,33 +4,39 @@ export const skillsJson = {
     { "name": "C++", "score": 70 },
     { "name": "Java", "score": 65 },
     { "name": "JavaScript", "score": 85 },
-    { "name": "TypeScript", "score": 60 }
+    { "name": "TypeScript", "score": 60 },
   ],
   "Frameworks": [
     { "name": "Tailwind", "score": 75 },
-    { "name": "React.js", "score": 80 },
+    {"name": "React-Native", "score": 80},
     { "name": "Node.js", "score": 75 },
     { "name": "Express", "score": 70 },
+    {"name":"Expo" , "score":70},
+    {"name":"Next.js", "score":70},
     {"name":"Vite", "score":70},
 
   ],
   "Libraries": [
+    { "name": "React.js", "score": 80 },
     { "name": "Scikit-learn", "score": 70 },
     { "name": "TensorFlow", "score": 70 },
     { "name": "PyTorch", "score": 70 },
     { "name": "Hugging Face", "score": 75 },
+    
     {"name": "LangChain", "score":80}
   ],
   "databases": [
     { "name": "MongoDB", "score": 75 },
     { "name": "MySQL", "score": 75 },
-    { "name": "Neo4j", "score": 60 }
+    { "name": "Neo4j", "score": 60 },
+    {"name":"PostgreSQL","score":75},
   ],
   "Tools": [
     
     {"name":"VS Code","score":85},
     {"name":"Cursor","score":90},
-    {"name":"Windows","score":95}
+    {"name":"Windows","score":95},
+    {"name":"Git","score":90},
   ],
     "devOps": [
     { "name": "AWS", "score": 70 },
@@ -101,6 +107,27 @@ export const projectsJson = {
       ]
     },
     {
+      "title": "Wallet App",
+      "githubLink": "https://github.com/Tharun2331/React-Native-Wallet-Frontend.git",
+      "liveLink": "https://github.com/Tharun2331/React-Native-Wallet.git",
+      "description": [
+        "Developed a cross-platform mobile wallet app using React Native and Expo (iOS & Android).",
+        "Built backend with Express.js and PostgreSQL, deployed on Render.",
+        "Integrated Clerk authentication for secure user management.",
+        "Implemented secure APIs with Redis-based rate limiting.",
+        "Added transaction CRUD operations with real-time balance updates."
+      ],
+      technologies: [
+        "React Native",
+        "Expo",
+        "Clerk",
+        "Express.js",
+        "PostgreSQL",
+        "Redis",
+        "Node.js"
+      ]
+    },
+    {
       "title": "Thesis Project: GraphRAG Pipeline for Evidence Based Medical Question Answering",
       "githubLink": "https://github.com/kushal-ml/MS_Project_Fall24.git",
       "liveLink": "https://www.medrxiv.org/content/10.1101/2025.05.03.25325604v1",
@@ -117,6 +144,7 @@ export const projectsJson = {
         "Matplotlib", "SentenceTransformer", "Streamlit", "OpenAI text-embedding-3-large", "RecursiveCharacterTextSplitter"
       ]
     },
+
     {
       "title": "Course Selling Platform Backend",
       "githubLink": "https://github.com/Tharun2331/Course_Selling_App_Backend",
@@ -129,6 +157,8 @@ export const projectsJson = {
       ],
       "technologies": ["Node.js", "Express.js", "MongoDB", "JWT", "bcrypt", "Zod"]
     }
+
+
   ]
 }
 
