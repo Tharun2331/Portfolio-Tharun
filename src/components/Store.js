@@ -116,17 +116,18 @@ export const experienceJson = {
 export const projectsJson = {
   "projects": [
     {
-      "title": "Brainly (In Progress)",
+      "title": "Brainly - AI Content Management Platform",
       "githubLink": "https://github.com/Tharun2331/Brainly_Web_App_2025",
       "liveLink": "https://brainly-v0.netlify.app/",
       "description": [
-        "AI-assisted personal knowledge management platform for curating links/videos with a dynamic dashboard.",
-        "Backend: Node.js, Express.js, MongoDB, JWT, Zod; Frontend: React, Vite, Tailwind CSS.",
-        "Shareable links (/share/<hash>), Axios-optimized APIs, and planned real-time/SSE updates."
+        "Full-stack knowledge management system with AI semantic search using OpenAI embeddings and Pinecone vector database for intelligent content discovery across tweets, videos, articles, and notes.",
+        "RESTful API with JWT authentication, Zod validation, and 20+ endpoints; Redux Toolkit state management with mobile-responsive React UI featuring real-time search and dark mode.",
+        "Shareable public links with hash-based routing, MongoDB schema optimization with population strategies, and async vector indexing for scalable search performance."
       ],
       "technologies": [
-        "Node.js", "Express.js", "MongoDB", "React", "Vite", "Tailwind CSS",
-        "Axios", "JWT", "Zod", "Bcrypt", "Pinecone", "OpenAI", "TypeScript"
+        "Node.js", "Express.js", "MongoDB", "React", "Redux Toolkit", "Vite", 
+        "Tailwind CSS", "TypeScript", "Pinecone", "OpenAI", "JWT", "Zod", 
+        "Bcrypt", "Axios"
       ]
     },
     {
