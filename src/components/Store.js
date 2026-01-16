@@ -3,7 +3,7 @@ export const skillsJson = {
     { "name": "JavaScript", "score": 90 },
     { "name": "TypeScript", "score": 85 },
     { "name": "Python", "score": 85 },
-    { "name": "SQL", "score": 75 }
+
   ],
   "Frameworks": [
     { "name": "React.js", "score": 85 },
