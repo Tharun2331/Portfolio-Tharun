@@ -11,7 +11,6 @@ export const skillsJson = {
     { "name": "Next.js", "score": 75 },
     { "name": "Node.js", "score": 80 },
     { "name": "Express.js", "score": 75 },
-    { "name": "NestJS", "score": 70 },
     { "name": "Expo", "score": 75 },
     { "name": "Vite", "score": 75 }
   ],
