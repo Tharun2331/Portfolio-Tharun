@@ -3,7 +3,6 @@ export const skillsJson = {
     { "name": "JavaScript", "score": 90 },
     { "name": "TypeScript", "score": 85 },
     { "name": "Python", "score": 85 },
-    { "name": "C++", "score": 70 },
     { "name": "SQL", "score": 75 }
   ],
   "Frameworks": [
@@ -18,18 +17,15 @@ export const skillsJson = {
   ],
   "Libraries": [
     { "name": "Redux", "score": 75 },
-    { "name": "Zustand", "score": 70 },
-    { "name": "React Query", "score": 70 },
-    { "name": "Axios", "score": 80 },
     { "name": "Tailwind CSS", "score": 80 },
     { "name": "LangChain", "score": 80 },
     { "name": "Scikit-learn", "score": 70 },
-    { "name": "PyTorch", "score": 70 },
-    { "name": "TensorFlow", "score": 70 },
     { "name": "Hugging Face", "score": 75 },
     { "name": "Pandas", "score": 80 },
-    { "name": "NumPy", "score": 75 },
-    { "name": "Matplotlib", "score": 70 }
+    { "name": "Zod", "score": 75 },
+    { "name": "OpenAI SDK", "score": 75 },
+    { "name": "Shadcn/ui", "score": 75 },
+    { "name": "Prisma", "score": 70 },
   ],
   "databases": [
     { "name": "PostgreSQL", "score": 80 },
@@ -40,51 +36,53 @@ export const skillsJson = {
     { "name": "ChromaDB", "score": 65 }
   ],
   "Tools": [
-    { "name": "Git", "score": 90 },
-    { "name": "GitHub", "score": 85 },
     { "name": "Docker", "score": 70 },
     { "name": "Postman", "score": 80 },
-    { "name": "Prisma", "score": 70 },
-    { "name": "TypeORM", "score": 75 },
     { "name": "Firebase", "score": 75 },
-    { "name": "UIPath", "score": 70 },
     { "name": "Decisions", "score": 70 },
     { "name": "Lucidchart", "score": 75 },
     { "name": "Azure Boards", "score": 70 },
     { "name": "VS Code", "score": 85 },
     { "name": "Cursor", "score": 90 },
-    { "name": "Windows", "score": 95 }
+    { "name": "Windows", "score": 95 },
+    {"name": "Jira", "score":90}
   ],
   "devOps": [
-    { "name": "AWS", "score": 70 },
-    { "name": "Azure", "score": 65 },
-    { "name": "Google Cloud (GCP)", "score": 65 },
-    { "name": "SageMaker", "score": 60 }
+    {"name": "AWS", "score": 70 },
+    {"name":"github-actions", "score":75},
+    { "name": "Git", "score": 90 },
+    { "name": "GitHub", "score": 85 },
+    {"name": "AWS-IAM", "score": 70 },
+    {"name": "AWS-S3", "score": 70 },
+    {"name": "AWS-VPC", "score": 70 },
+    {"name": "AWS-EC2", "score": 70 },
+    {"name": "AWS-CloudWatch", "score": 70 },
+    {"name":"docker", "score":70},
+    {"name": "docker-compose", "score":75}
   ]
 }
 export const experienceJson = {
   "experience": [
     {
-      "title": "Full Stack Mobile Developer Intern",
+      "title": "AI Software Engineer Intern",
       "company": "GQ Consultancy Inc.",
       "duration": "Sep 2025 – Present",
       "responsibilities": [
-        "Built cross-platform applications using TypeScript, React Native, and NestJS delivering responsive UI and scalable backend services.",
-        "Developed modular components enabling faster feature iterations across iOS and Android platforms.",
-        "Integrated TypeORM with PostgreSQL reducing query latency and improving performance by 30%.",
-        "Implemented real-time features and Firebase authentication enhancing user engagement and security.",
-        "Deployed applications on Google Cloud Platform ensuring scalable infrastructure with high availability."
+        "Built cross-platform applications using TypeScript, React Native, and NodeJS with RAG-based AI workflows, delivering intelligent responses and scalable services across iOS and Android.",
+        "Optimized PostgreSQL queries and connection pooling, and integrated Pinecone vector database for semantic search, reducing latency by 30% for AI-powered mobile applications.",
+        "Implemented real-time AI features, RAG retrieval systems, and Firebase authentication, enhancing engagement through intelligent interfaces.",
+        "Developed reusable components and modular backend services with AI integration, accelerating feature delivery."
       ]
     },
     {
-      "title": "RPA Developer / Software Developer (Tax Analyst)",
+      "title": "Software Developer (Tax Analyst)",
       "company": "Ernst & Young Global Delivery Services",
       "duration": "Aug 2022 – Aug 2023",
       "responsibilities": [
-        "Engineered tax web applications using React, Node.js, and Redux increasing operational efficiency by 25%.",
-        "Automated taxation workflows using UIPath and Decisions reducing manual work by 30%.",
-        "Built reusable UI components and optimized backend APIs accelerating feature delivery by 30%.",
-        "Developed SQL databases and data pipelines with high data integrity and faster queries.",
+        "Developed full-stack tax web applications using React, Node.js, and Redux with RESTful APIs increasing operational efficiency by 25%.",
+        "Built scalable backend services and optimized database queries with SQL, implementing data pipelines ensuring high data integrity and faster response times.",
+        "Created reusable frontend components and modular backend architecture accelerating full-stack feature delivery by 30%.",
+        "Configured CI/CD pipelines using GitHub Actions enabling automated testing, builds, and deployments reducing release cycles by 40%.",
         "Delivered data-driven dashboards improving client decision-making and increasing adoption by 15%."
       ]
     },
@@ -122,10 +120,11 @@ export const projectsJson = {
       "description": [
         "Full-stack knowledge management system with AI semantic search using OpenAI embeddings and Pinecone vector database for intelligent content discovery across tweets, videos, articles, and notes.",
         "RESTful API with JWT authentication, Zod validation, and 20+ endpoints; Redux Toolkit state management with mobile-responsive React UI featuring real-time search and dark mode.",
-        "Shareable public links with hash-based routing, MongoDB schema optimization with population strategies, and async vector indexing for scalable search performance."
+        "Shareable public links with hash-based routing, MongoDB schema optimization with population strategies, and async vector indexing for scalable search performance.",
+        "Docker Compose containerization for local development; shareable public links with hash-based routing, MongoDB schema optimization and async vector indexing for scalable search performance."
       ],
       "technologies": [
-        "Node.js", "Express.js", "MongoDB", "React", "Redux Toolkit", "Vite", 
+        "Node.js", "Express.js", "MongoDB", "React", "Redux Toolkit", "Vite", "Docker", 
         "Tailwind CSS", "TypeScript", "Pinecone", "OpenAI", "JWT", "Zod", 
         "Bcrypt", "Axios"
       ]
