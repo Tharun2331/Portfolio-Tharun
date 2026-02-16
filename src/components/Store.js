@@ -63,9 +63,24 @@ export const skillsJson = {
 export const experienceJson = {
   "experience": [
     {
+      "title": "Gen AI Developer",
+      "company": "Booklzye",
+      "duration": "Feb 2026 – Present",
+      "responsibilities": [
+        "Designed and developed production-grade back-end AI services using Django, integrating Google Gemini LLM to generate automated book summaries and multilingual transcriptions.",
+        "Built scalable PDF ingestion and processing pipelines using PyPDF, enabling structured content extraction for downstream AI workflows.",
+        "Implemented asynchronous task orchestration with Celery and Redis, handling high-volume LLM requests efficiently in a distributed environment.",
+        "Deployed and managed containerized services using Docker on AWS, configured Nginx as a reverse proxy, and ensured reliable, scalable production infrastructure."
+      ]
+    },
+    
+    
+    
+    
+    {
       "title": "AI Software Engineer Intern",
       "company": "GQ Consultancy Inc.",
-      "duration": "Sep 2025 – Present",
+      "duration": "Sep 2025 – Jan 2026",
       "responsibilities": [
         "Built cross-platform applications using TypeScript, React Native, and NodeJS with RAG-based AI workflows, delivering intelligent responses and scalable services across iOS and Android.",
         "Optimized PostgreSQL queries and connection pooling, and integrated Pinecone vector database for semantic search, reducing latency by 30% for AI-powered mobile applications.",
