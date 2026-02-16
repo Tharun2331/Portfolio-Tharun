@@ -100,17 +100,7 @@ export const experienceJson = {
         "Delivered data-driven dashboards improving client decision-making and increasing adoption by 15%."
       ]
     },
-    {
-      "title": "Machine Learning Intern",
-      "company": "Verzeo",
-      "duration": "Sep 2021 – Oct 2021",
-      "responsibilities": [
-        "Developed machine learning models using Scikit-learn and PyTorch for predictive analytics and NLP tasks.",
-        "Performed EDA, data preprocessing, and pipeline design using Pandas and NumPy.",
-        "Fine-tuned Hugging Face transformer models for domain-specific text classification.",
-        "Deployed ML workflows on AWS with MongoDB integration and monitored performance using Matplotlib visualizations."
-      ]
-    },
+    
     {
       "title": "Software Engineer Intern",
       "company": "Mobiezy Solutions",
@@ -120,6 +110,17 @@ export const experienceJson = {
         "Integrated RESTful APIs, ensuring secure and efficient communication between front-end and back-end.",
         "Collaborated in an Agile team to deliver scalable solutions with reusable UI components.",
         "Deployed containerized applications using Docker, managed GitHub CI/CD pipelines, and optimized performance monitoring dashboards."
+      ]
+    },
+    {
+      "title": "Machine Learning Intern",
+      "company": "Verzeo",
+      "duration": "Sep 2021 – Oct 2021",
+      "responsibilities": [
+        "Developed machine learning models using Scikit-learn and PyTorch for predictive analytics and NLP tasks.",
+        "Performed EDA, data preprocessing, and pipeline design using Pandas and NumPy.",
+        "Fine-tuned Hugging Face transformer models for domain-specific text classification.",
+        "Deployed ML workflows on AWS with MongoDB integration and monitored performance using Matplotlib visualizations."
       ]
     }
   ]
