@@ -14,7 +14,7 @@ export default function About() {
 
 > 🎯 I’m currently focused on Full Stack Development and AI-driven applications, especially leveraging Retrieval-Augmented Generation (RAG) for smarter, more reliable systems.
 
-> 📍 Based in Ontario, Canada, but open to global opportunities.
+> 📍 Based in Toronto, Ontario, Canada, but open to global opportunities.
 
 > 🎮 When I’m not coding, I’m usually exploring sci-fi RPGs or arguing over pizza toppings with friends like it’s a high-stakes multiplayer match.`}
         </p>

@@ -63,14 +63,15 @@ export const skillsJson = {
 export const experienceJson = {
   "experience": [
     {
-      "title": "Gen AI Developer",
+      "title": "Full Stack Developer",
       "company": "Booklzye",
       "duration": "Feb 2026 – Present",
       "responsibilities": [
-        "Designed and developed production-grade back-end AI services using Django, integrating Google Gemini LLM to generate automated book summaries and multilingual transcriptions.",
-        "Built scalable PDF ingestion and processing pipelines using PyPDF, enabling structured content extraction for downstream AI workflows.",
-        "Implemented asynchronous task orchestration with Celery and Redis, handling high-volume LLM requests efficiently in a distributed environment.",
-        "Deployed and managed containerized services using Docker on AWS, configured Nginx as a reverse proxy, and ensured reliable, scalable production infrastructure."
+        "Contributed to architecture and code reviews for Django backend systems and LLM-based production applications, identifying scalability bottlenecks and supporting performance improvements",
+        "Authored and maintained comprehensive API documentation, improving developer onboarding and enabling faster debugging and incident resolution",
+        "Applied object-oriented design principles and clean coding practices to enhance the maintainability, scalability, and readability of backend services",
+        "Assisted in building and integrating RESTful APIs to support application functionality and seamless system communication",
+        "Leveraged AI-assisted development tools to accelerate implementation, improve workflow efficiency, and support code optimization"
       ]
     },
     
@@ -82,10 +83,11 @@ export const experienceJson = {
       "company": "GQ Consultancy Inc.",
       "duration": "Sep 2025 – Jan 2026",
       "responsibilities": [
-        "Built cross-platform applications using TypeScript, React Native, and NodeJS with RAG-based AI workflows, delivering intelligent responses and scalable services across iOS and Android.",
-        "Optimized PostgreSQL queries and connection pooling, and integrated Pinecone vector database for semantic search, reducing latency by 30% for AI-powered mobile applications.",
-        "Implemented real-time AI features, RAG retrieval systems, and Firebase authentication, enhancing engagement through intelligent interfaces.",
-        "Developed reusable components and modular backend services with AI integration, accelerating feature delivery."
+        "Developed Node.js backend services using object-oriented design to orchestrate RAG pipelines, including document ingestion, vector embeddings, and Pinecone retrieval, reducing response latency",
+        "Implemented unit tests, input validation, and secure JWT-based authentication flows for Firebase user management across staging environments",
+        "Engineered cross-platform mobile features using React Native and TypeScript for AI-driven user experiences across iOS and Android platforms",
+        "Integrated backend APIs and AI-powered workflows to support scalable application performance and reliable data flow",
+        "Optimized backend logic and service integrations to improve application responsiveness, scalability, and overall user experience"
       ]
     },
     {
@@ -93,11 +95,11 @@ export const experienceJson = {
       "company": "Ernst & Young Global Delivery Services",
       "duration": "Aug 2022 – Aug 2023",
       "responsibilities": [
-        "Developed full-stack tax web applications using React, Node.js, and Redux with RESTful APIs increasing operational efficiency by 25%.",
-        "Built scalable backend services and optimized database queries with SQL, implementing data pipelines ensuring high data integrity and faster response times.",
-        "Created reusable frontend components and modular backend architecture accelerating full-stack feature delivery by 30%.",
-        "Configured CI/CD pipelines using GitHub Actions enabling automated testing, builds, and deployments reducing release cycles by 40%.",
-        "Delivered data-driven dashboards improving client decision-making and increasing adoption by 15%."
+        "Developed and enhanced an enterprise tax processing platform using React, Node.js, and MySQL, improving operational throughput and reducing page load times",
+        "Applied object-oriented design principles to build scalable, maintainable application features supporting tax and business workflows",
+        "Built reusable TypeScript and React components and optimized backend APIs, accelerating feature delivery and reducing development effort",
+        "Delivered data-driven dashboards and reporting features that improved client decision-making and increased operational efficiency",
+        "Collaborated with UI/UX designers and cross-functional teams to create intuitive user interfaces, contributing to an increase in client adoption"
       ]
     },
     
@@ -106,10 +108,10 @@ export const experienceJson = {
       "company": "Mobiezy Solutions",
       "duration": "May 2022 – Jul 2022",
       "responsibilities": [
-        "Developed responsive web applications using React.js, Node.js, and MongoDB improving front-end load times by 30%.",
-        "Integrated RESTful APIs, ensuring secure and efficient communication between front-end and back-end.",
-        "Collaborated in an Agile team to deliver scalable solutions with reusable UI components.",
-        "Deployed containerized applications using Docker, managed GitHub CI/CD pipelines, and optimized performance monitoring dashboards."
+        "Assisted in developing and maintaining responsive web pages using HTML, CSS, JavaScript, and modern frontend frameworks to improve user experience and interface consistency",
+        "Supported the implementation of reusable UI components and contributed to frontend enhancements for web applications across desktop and mobile devices",
+        "Assisted in integrating APIs and dynamic data into web pages, helping deliver interactive and responsive application features",
+        "Worked with version control tools such as Git and GitHub to manage code updates and contribute within a collaborative development environment"
       ]
     },
     {
@@ -117,10 +119,10 @@ export const experienceJson = {
       "company": "Verzeo",
       "duration": "Sep 2021 – Oct 2021",
       "responsibilities": [
-        "Developed machine learning models using Scikit-learn and PyTorch for predictive analytics and NLP tasks.",
-        "Performed EDA, data preprocessing, and pipeline design using Pandas and NumPy.",
-        "Fine-tuned Hugging Face transformer models for domain-specific text classification.",
-        "Deployed ML workflows on AWS with MongoDB integration and monitored performance using Matplotlib visualizations."
+        "Assisted in preprocessing and analyzing datasets for machine learning tasks, including data cleaning, transformation, and feature preparation", 
+        "Built and evaluated basic machine learning models using Python and scikit-learn to support predictive analytics use cases",
+        "Conducted exploratory data analysis and visualization to uncover trends, correlations, and potential data issues",
+        "Supported model testing and validation using standard performance metrics to compare results and improve reliability"
       ]
     }
   ]
@@ -186,13 +188,13 @@ export const projectsJson = {
 
 export const contactJson = {
   "name": "Tharun Sekar",
-  "email": "tharunsd23@gmail.com",
-  "phone": "+1-807-707-4181",
+  "email": "tharunsekar194@gmail.com",
+  "phone": "+1-647-374-0315",
   "location": "Toronto, Ontario, Canada",
   "availability": "I work remotely across most time zones",
   "social": {
     "github": "https://github.com/Tharun2331",
-    "linkedin": "https://www.linkedin.com/in/tharun-sekar-a587711b3/",
+    "linkedin": "https://www.linkedin.com/in/tharunsekar/",
     "twitter": "https://x.com/Tharun231311",
     "portfolio": "https://portfolio-tharun-sekar.netlify.app/"
   },
