@@ -63,23 +63,7 @@ export const skillsJson = {
 export const experienceJson = {
   "experience": [
     {
-      "title": "Full Stack Developer",
-      "company": "Booklzye",
-      "duration": "Feb 2026 – Present",
-      "responsibilities": [
-        "Contributed to architecture and code reviews for Django backend systems and LLM-based production applications, identifying scalability bottlenecks and supporting performance improvements",
-        "Authored and maintained comprehensive API documentation, improving developer onboarding and enabling faster debugging and incident resolution",
-        "Applied object-oriented design principles and clean coding practices to enhance the maintainability, scalability, and readability of backend services",
-        "Assisted in building and integrating RESTful APIs to support application functionality and seamless system communication",
-        "Leveraged AI-assisted development tools to accelerate implementation, improve workflow efficiency, and support code optimization"
-      ]
-    },
-    
-    
-    
-    
-    {
-      "title": "AI Software Engineer Intern",
+      "title": "Software Developer",
       "company": "GQ Consultancy Inc.",
       "duration": "Sep 2025 – Jan 2026",
       "responsibilities": [
@@ -104,7 +88,7 @@ export const experienceJson = {
     },
     
     {
-      "title": "Software Engineer Intern",
+      "title": "Web Developer",
       "company": "Mobiezy Solutions",
       "duration": "May 2022 – Jul 2022",
       "responsibilities": [
@@ -124,7 +108,20 @@ export const experienceJson = {
         "Conducted exploratory data analysis and visualization to uncover trends, correlations, and potential data issues",
         "Supported model testing and validation using standard performance metrics to compare results and improve reliability"
       ]
+    },
+    {
+      "title": "Full Stack Web Developer",
+      "company": "Tequed Labs",
+      "duration": "Mar 2021 – Apr 2021",
+      "responsibilities": [
+        "Developed and optimized RESTful APIs using Node.js and Express.js, ensuring efficient data retrieval and backend performance",
+        "Integrated JWT authentication for secure user login and session management across frontend and backend systems",
+        "Built responsive user interfaces using React.js and Tailwind CSS, ensuring cross-browser compatibility and mobile responsiveness",
+        "Worked with PostgreSQL and MongoDB to design efficient database schemas and implement CRUD operations for dynamic data handling",
+        "Collaborated in an Agile/Scrum environment, participating in sprint planning, daily standups, and code reviews to ensure the timely delivery of features"
+      ]
     }
+
   ]
 }
 
