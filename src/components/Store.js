@@ -65,7 +65,7 @@ export const experienceJson = {
     {
       "title": "Software Developer",
       "company": "GQ Consultancy Inc.",
-      "duration": "Sep 2025 – Jan 2026",
+      "duration": "Sep 2025 – Present",
       "responsibilities": [
         "Developed Node.js backend services using object-oriented design to orchestrate RAG pipelines, including document ingestion, vector embeddings, and Pinecone retrieval, reducing response latency",
         "Implemented unit tests, input validation, and secure JWT-based authentication flows for Firebase user management across staging environments",
