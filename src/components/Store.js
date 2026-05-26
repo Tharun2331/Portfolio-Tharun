@@ -130,18 +130,17 @@ export const projectsJson = {
     {
       "title": "Brainly - AI Content Management Platform",
       "githubLink": "https://github.com/Tharun2331/Brainly_Web_App_2025",
-      "liveLink": "https://brainly-v0.netlify.app/",
+      "liveLink": "https://d1rt9btirco880.cloudfront.net/",
       "description": [
-        "Full-stack knowledge management system with AI semantic search using OpenAI embeddings and Pinecone vector database for intelligent content discovery across tweets, videos, articles, and notes.",
-        "RESTful API with JWT authentication, Zod validation, and 20+ endpoints; Redux Toolkit state management with mobile-responsive React UI featuring real-time search and dark mode.",
-        "Shareable public links with hash-based routing, MongoDB schema optimization with population strategies, and async vector indexing for scalable search performance.",
-        "Docker Compose containerization for local development; shareable public links with hash-based routing, MongoDB schema optimization and async vector indexing for scalable search performance."
+        "Full-stack AI-powered knowledge management system that captures, organizes, and semantically searches content across YouTube videos, articles, tweets, and personal notes using OpenAI GPT-4 and Pinecone vector database for intelligent content discovery.",
+        "RESTful API with JWT authentication, Zod validation, and 20+ endpoints; Redux Toolkit state management with a mobile-responsive React UI featuring real-time semantic search, dark mode, and shareable public collection links.",
+        "Deployed on AWS production infrastructure with ECS Fargate, CloudFront + S3, API Gateway with VPC Link and Cloud Map service discovery; CI/CD via GitHub Actions with Docker/ECR, secrets managed through SSM Parameter Store, and MongoDB Atlas for persistent storage."
       ],
       "technologies": [
-        "Node.js", "Express.js", "MongoDB", "React", "Redux Toolkit", "Vite", "Docker", 
-        "Tailwind CSS", "TypeScript", "Pinecone", "OpenAI", "JWT", "Zod", 
-        "Bcrypt", "Axios"
-      ]
+        "React", "TypeScript", "Tailwind CSS", "Node.js", "Express.js", "MongoDB",
+        "Redux Toolkit", "OpenAI GPT-4", "Pinecone", "JWT", "Zod",
+        "AWS ECS Fargate", "CloudFront", "S3", "API Gateway", "Docker", "GitHub Actions"
+]
     },
     {
       "title": "Cross-Platform Mobile Wallet",
