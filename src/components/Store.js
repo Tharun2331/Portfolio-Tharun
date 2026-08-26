@@ -67,11 +67,11 @@ export const experienceJson = {
       "company": "GQ Consultancy Inc.",
       "duration": "Sep 2025 – Present",
       "responsibilities": [
-        "Developed Node.js backend services using object-oriented design to orchestrate RAG pipelines, including document ingestion, vector embeddings, and Pinecone retrieval, reducing response latency",
+        "Reviewed backend API documentation and designed responsive, mobile-friendly UI screens for iOS and Android using React Native and Expo",
         "Implemented unit tests, input validation, and secure JWT-based authentication flows for Firebase user management across staging environments",
         "Engineered cross-platform mobile features using React Native and TypeScript for AI-driven user experiences across iOS and Android platforms",
         "Integrated backend APIs and AI-powered workflows to support scalable application performance and reliable data flow",
-        "Optimized backend logic and service integrations to improve application responsiveness, scalability, and overall user experience"
+        "Collaborated with senior developers within Agile/Scrum sprints to translate feature requirements into functional cross-platform components"
       ]
     },
     {
