@@ -63,9 +63,20 @@ export const skillsJson = {
 export const experienceJson = {
   "experience": [
     {
+      "title": "Lead Full Stack Engineer",
+      "company": "AWE Digital Wellness",
+      "duration": "Oct 2026 – Present",
+      "responsibilities": [
+        "Helping build AI wellness chatbots for students, delivered through a mobile app and a multi-tenant web portal",
+        "Building the multi-tenant backend for the chatbots, serving students and B2B customers: organization-scoped authentication, subscription-based feature gating, and per-org dashboards of anonymized usage insights",
+        "Migrating the platform's infrastructure from Azure to Google Cloud (GCP), mapping Azure-specific services and dependencies",
+        "Working in a Next.js, React Native, Expo, TypeScript, FastAPI, Prisma/Postgres and Supabase stack on Google Cloud, integrating with an LLM chat  service"
+      ]
+    },
+    {
       "title": "Software Developer",
       "company": "GQ Consultancy Inc.",
-      "duration": "Sep 2025 – Present",
+      "duration": "Sep 2025 – Oct 2026",
       "responsibilities": [
         "Reviewed backend API documentation and designed responsive, mobile-friendly UI screens for iOS and Android using React Native and Expo",
         "Implemented unit tests, input validation, and secure JWT-based authentication flows for Firebase user management across staging environments",
